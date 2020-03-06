@@ -17,8 +17,8 @@ class HorizontalList extends StatelessWidget {
          Category(image_location: 'images/cats/dress.png',
          image_caption: 'dress',),
 
-        //  Category(image_location: 'images/cats/formal.png',
-        //  image_caption: 'formal',),
+         Category(image_location: 'images/cats/formal.png',
+         image_caption: 'formal',),
 
          Category(image_location: 'images/cats/jeans.png',
          image_caption: 'jeans',),
@@ -49,11 +49,12 @@ class Category extends StatelessWidget {
       child: InkWell(
         onTap: (){},
         child: Container(
-          width: 100.0,
+          width: 80.0,
           child: ListTile(
-            title: Image.asset(image_location, width: 100.0, height: 80.0),
+            title: Image.asset(image_location, width: 50.0, height: 80.0),
             subtitle: Container(alignment: Alignment.topCenter,
-            child: Text(image_caption))
+            child: Text(image_caption)
+            )
         )
       ),
     )
