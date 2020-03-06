@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
+        elevation: 0.2,
         backgroundColor: Colors.amber,
         title: Text('NoFilter'),
         actions: <Widget>[
@@ -91,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                  onTap: (){},
                  child: ListTile(
                  title: Text('Settings'),
-                 leading: Icon(Icons.settings)
+                 leading: Icon(Icons.settings, color: Colors.blue)
                ),
              ),
 
@@ -99,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                  onTap: (){},
                  child: ListTile(
                  title: Text('About'),
-                 leading: Icon(Icons.help)
+                 leading: Icon(Icons.help, color: Colors.blue)
                ),
              )
 
