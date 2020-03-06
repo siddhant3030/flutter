@@ -32,7 +32,12 @@ class _HomePageState extends State<HomePage> {
           children: <Widget>[
             new UserAccountsDrawerHeader(
                 accountName: Text('Siddhant Singh'),
-                accountEmail: Text('ssiddhant3030@gmail.com'),)
+                accountEmail: Text('ssiddhant3030@gmail.com'),
+                currentAccountPicture: GestureDetector(
+                  child: new CircleAvatar(
+                    backgroundColor: Colors.grey,
+                    child: Icon(Icons.person, color: Colors.white),
+                  ),),),
           ],
         ),
       ),
