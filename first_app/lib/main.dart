@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                     child: Icon(Icons.person, color: Colors.white),
                   ),),
                   decoration: new BoxDecoration(
-                    color: Colors.amber
+                    color: Colors.amber,
                   ),),
              // Body
              InkWell(
