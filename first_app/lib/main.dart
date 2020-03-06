@@ -48,7 +48,62 @@ class _HomePageState extends State<HomePage> {
                  title: Text('Home Page'),
                  leading: Icon(Icons.home)
                ),
+             ),
+
+                InkWell(
+                 onTap: (){},
+                 child: ListTile(
+                 title: Text('My Account'),
+                 leading: Icon(Icons.person)
+               ),
+             ),
+
+
+   InkWell(
+                 onTap: (){},
+                 child: ListTile(
+                 title: Text('My order'),
+                 leading: Icon(Icons.shopping_basket)
+               ),
+             ),
+
+
+   InkWell(
+                 onTap: (){},
+                 child: ListTile(
+                 title: Text('Categories'),
+                 leading: Icon(Icons.dashboard)
+               ),
+             ),
+
+
+   InkWell(
+                 onTap: (){},
+                 child: ListTile(
+                 title: Text('Favourites'),
+                 leading: Icon(Icons.favorite)
+               ),
+             ),
+
+          Divider(),
+
+             InkWell(
+                 onTap: (){},
+                 child: ListTile(
+                 title: Text('Settings'),
+                 leading: Icon(Icons.settings)
+               ),
+             ),
+
+                InkWell(
+                 onTap: (){},
+                 child: ListTile(
+                 title: Text('About'),
+                 leading: Icon(Icons.help)
+               ),
              )
+
+
 
           ],
         ),
