@@ -37,7 +37,16 @@ class _HomePageState extends State<HomePage> {
                   child: new CircleAvatar(
                     backgroundColor: Colors.grey,
                     child: Icon(Icons.person, color: Colors.white),
-                  ),),),
+                  ),),
+                  decoration: new BoxDecoration(
+                    color: Colors.amber
+                  ),),
+             // Body
+             ListTitle(
+               title: Text('Home Page'),
+               leading: Icon(Icons.home)
+             )
+
           ],
         ),
       ),
