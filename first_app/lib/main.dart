@@ -27,6 +27,15 @@ class _HomePageState extends State<HomePage> {
           new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white), onPressed: (){},)
         ],
       ),
+      drawer: new Drawer(
+        child: new ListView(
+          children: <Widget>[
+            new UserAccountsDrawerHeader(
+                accountName: Text('Siddhant Singh'),
+                accountEmail: Text('ssiddhant3030@gmail.com'),)
+          ],
+        ),
+      ),
     );
   }
 }
