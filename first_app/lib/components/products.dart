@@ -21,3 +21,23 @@ class _ProductsState extends State<Products> {
     );
   }
 }
+
+class Single_Prod extends StatelessWidget {
+  final product_name;
+  final product_picture;
+  final product_old_price;
+  final prod_price;
+
+  Single_Prod ({
+    this.product_name,
+    this.product_picture,
+    this.product_old_price,
+    this.prod_price
+  });
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      
+    );
+  }
+}
