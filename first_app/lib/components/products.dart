@@ -18,7 +18,44 @@ class _ProductsState extends State<Products> {
       "picture": "images/products/blazer2.jpeg",
       "old_price": 120,
       "price": 85
-    }
+    },
+
+  {
+      "name": "dress",
+      "picture": "images/products/dress1.jpeg",
+      "old_price": 120,
+      "price": 85
+    },
+      {
+      "name": "dress",
+      "picture": "images/products/dress2.jpeg",
+      "old_price": 120,
+      "price": 85
+    },
+      {
+      "name": "hills",
+      "picture": "images/products/hills1.jpeg",
+      "old_price": 120,
+      "price": 85
+    },
+      {
+      "name": "hills",
+      "picture": "images/products/hills2.jpeg",
+      "old_price": 120,
+      "price": 85
+    },
+      {
+      "name": "pants",
+      "picture": "images/products/pants1.jpg",
+      "old_price": 120,
+      "price": 85
+    },
+      {
+      "name": "pants",
+      "picture": "images/products/pants2.jpeg",
+      "old_price": 120,
+      "price": 85
+    },
   ];
   @override
   Widget build(BuildContext context) {
