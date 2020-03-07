@@ -1,8 +1,8 @@
 # Learning Flutter and Creating Apps
 
 <p align="center">
-  <img src="images/HomePage.png"/>
-  <img src="clojuretutorial/images/Drawer.png" />
+  <img src="images/HomePage.png" width: "100"/>
+  <img src="images/Drawer.png" />
 </p>
 
 ![HomePage](clojuretutorial/images/HomePage.png)
