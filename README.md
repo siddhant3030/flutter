@@ -1,6 +1,6 @@
 # Learning Flutter and Creating Apps
 
-<p align="center">
+<p align="left">
   <img src="images/HomePage.png" height: 20px/>
   <img src="images/Drawer.png" height: 20px />
 </p>
