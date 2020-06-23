@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "946087088366",
+    "firebase_url": "https://fir-messaging-40aca.firebaseio.com",
+    "project_id": "fir-messaging-40aca",
+    "storage_bucket": "fir-messaging-40aca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946087088366:android:33ebf897aa4ee978f423ff",
+        "android_client_info": {
+          "package_name": "com.example.first_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946087088366-d2pm6jop19vur7bkfhfll2852l1gqk26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0wjxDkR3vOpwxYNAxa93ns_8j9akbUps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946087088366-d2pm6jop19vur7bkfhfll2852l1gqk26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
